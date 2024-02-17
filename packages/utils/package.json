@@ -1,0 +1,22 @@
+{
+    "name": "@3rcu/utils",
+    "version": "0.0.0",
+    "main": "./src/index.ts",
+    "module": "./src/index.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "dev": "tsc -w -p tsconfig.build.json",
+        "build": "tsc -b tsconfig.build.json",
+        "lint": "eslint . --ext ts,tsx"
+    },
+    "dependencies": {
+        "deepmerge": "^4.3.1"
+    },
+    "devDependencies": {
+        "@3rcu/eslint-config": "workspace:*",
+        "@3rcu/ts-config": "workspace:*",
+        "typescript": "^5.1.6"
+    }
+}

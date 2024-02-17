@@ -1,0 +1,11 @@
+{
+    "extends": "@3rcu/ts-config/react.json",
+    "compilerOptions": {
+        "baseUrl": ".",
+        "outDir": "./dist",
+        "paths": {
+            "@/*": ["src/*"]
+        }
+    },
+    "include": ["./src"]
+}

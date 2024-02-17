@@ -1,0 +1,19 @@
+{
+    "name": "@3rcu/zustand",
+    "version": "0.0.0",
+    "main": "src/index.ts",
+    "types": "src/index.ts",
+    "scripts": {
+        "lint": "eslint . --ext ts,tsx"
+    },
+    "dependencies": {
+        "lodash": "^4.17.21",
+        "zustand": "^4.4.1"
+    },
+    "devDependencies": {
+        "@3rcu/eslint-config": "workspace:*",
+        "@3rcu/ts-config": "workspace:*",
+        "@types/lodash": "^4.14.197",
+        "typescript": "^5.1.6"
+    }
+}
